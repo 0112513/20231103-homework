@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+.area {
+  width: 100vh;
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.header {
+  height: 12vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerSon {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header .block1 {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(228, 158, 158);
+}
+
+.second {
+  height: 60vh;
+  justify-content: center;
+}
+.second .secondLeft {
+  height: 58vh;
+  width: 30%;
+  margin-right: 5%;
+  padding-top: 3px;
+}
+.second .secondRight {
+  height: 60vh;
+  width: 60%;
+  background-image: url(./甜點圖片/Rectangle\ 2.png);
+  background-repeat: round;
+}
+
+.onSale {
+  height: 60vh;
+  display: block;
+}
+
+.onSaleText {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.onSaleText h1 {
+  margin: 0;
+}
+
+.onSaleImgs {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+.onSaleImgs .imgItem {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  background-repeat: round;
+}
+.onSaleImgs .imgItem buton {
+  width: 15vh;
+  height: 5vh;
+  font-size: 18pt;
+  color: white;
+  background-color: rgb(228, 158, 158);
+  border: 0;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+.onSaleImgs .img1 {
+  background-image: url(./甜點圖片/Rectangle\ 3.png);
+}
+.onSaleImgs .img2 {
+  background-image: url(./甜點圖片/Rectangle\ 3.png);
+}
+.onSaleImgs .img3 {
+  background-image: url(./甜點圖片/Rectangle\ 3.png);
+}/*# sourceMappingURL=main.css.map */
